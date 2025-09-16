@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package banco.dinheiro;
+package Model;
 
 /**
  *
@@ -40,4 +40,13 @@ abstract class Conta {
     
     
 public abstract void sacar(double valor) throws SaldoInsuficienteException;
+
+public static double depositar(double valor){
+    return 0;
+   };
+
+public static void imprimirDados(){
+    return;
+};
+
 }

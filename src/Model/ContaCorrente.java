@@ -10,5 +10,8 @@ package Model;
  */
 public class ContaCorrente extends Conta{
     
+    public static double sacar(double valor){
+        
+    };
     
 }
